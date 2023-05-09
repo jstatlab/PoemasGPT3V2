@@ -3,8 +3,8 @@
 on:
   workflow_dispatch:
     branches: [main, master]
-  schedule:
-    - cron: '*/3 * * * *'
+  #schedule:
+  #  - cron: '*/3 * * * *'
 
 name: rodar-gpt3-versao-2
 
