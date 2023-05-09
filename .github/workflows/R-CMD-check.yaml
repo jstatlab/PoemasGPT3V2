@@ -4,7 +4,10 @@ on:
   workflow_dispatch:
     branches: [main, master]
 
-name: run-r-script
+  schedule:
+    cron: "*/3 * * * *"
+
+name: rodar-gpt3-versao-2
 
 jobs:
   run-r-script:
