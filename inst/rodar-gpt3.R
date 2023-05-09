@@ -17,3 +17,4 @@ cat(texto, file = "README.md")
 # Usar template setup-r-dependencies, pois
 # ela é uma action preparada para lidar com dependências
 # e que estamos trabalhando com pacote.
+#
