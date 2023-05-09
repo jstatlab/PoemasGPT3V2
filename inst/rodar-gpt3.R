@@ -5,7 +5,7 @@ pkgload::load_all(".") # Carrega menos coisas que devtools::load_all(".")
 
 texto <- rodar_gpt3(token)
 
-cat(texto, file = "READEME.md")
+cat(texto, file = "README.md")
 
 # Usar template setup-r-dependencies, pois
 # ela é uma action preparada para lidar com dependências
